@@ -4,6 +4,7 @@ TwitBot
 A simple twitter bot which tweets lines from a text file.
 
 To use:
+
 1. install python-twitter & all the modules it needs
 
 2. if you don't already have an account to use & the credentials to go with (from dev.twitter.com), get that sorted
