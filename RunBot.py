@@ -1,6 +1,6 @@
 
 #Tweets lines from a text file
-#26/08/13
+#started 26/08/13
 #by iceteawithlemon
 #using python-twitter & python 2.7
 
@@ -8,8 +8,7 @@ import twitter
 import login
 #Logs in with your developer credentials
 c_k, c_s, a_t_k, a_t_s = login.credentials()
-api = twitter.Api(consumer_key=c_k,
-consumer_secret=c_s, access_token_key=a_t_k, access_token_secret=a_t_s)
+api = twitter.Api(c_k, c_s, a_t_k, a_t_s)
 print "\nSuccesfully authentificated.\n"
 
 #Opens text file and creates a list with each line of the file as an element. Checks if any tweets are too long.
